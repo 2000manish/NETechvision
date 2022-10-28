@@ -1,0 +1,67 @@
+/* -------- Navbar Styling --------- */
+
+.navbar{
+    background-color: black;
+    margin-bottom: 0px;
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+    font-size: 18px;
+    border-radius: 5px; 
+}
+.nav-item{
+    /* border: 2px solid red; */
+    height: 45px;
+}
+
+.Logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 45%;
+    margin-right: 15px;
+}
+h3{
+    color: white;
+}
+#search{
+    background-color: rgb(58, 166, 238);
+    border-radius: 3px;
+    height: 30px;
+}
+input[type=search] {
+    padding: 10px;
+    height: 30px;
+}
+.navbar-toggler-icon{
+    background-image: url("s-img1.png");
+}
+
+section{
+    background-image: url(s-img2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    width: 100%;
+    opacity: 1.7;
+}
+#h1{
+    color: black;
+}
+
+
+/* ---------- Footer section ---------- */
+
+footer{
+    background-color:black;
+    height :auto;
+}
+#info img
+{
+    height:30px ;
+    width: 30px;
+    left: 50%;
+    border-radius: 5px;
+}

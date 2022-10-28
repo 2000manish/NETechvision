@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>   
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <img class="Logo" src="s-img1.png" alt="Logo">
+      <h3>NETechvision</h3>
+      <button class ="navbar-toggler" type ="button" data-toggle ="collapse" data-target ="#colNav">
+        <span class ="navbar-toggler-icon"></span>
+        </button>
+
+      <div class="collapse navbar-collapse"  id="colNav">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+        </ul>
+      </div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search for lab tests" aria-label="Search">
+        <button id="search" class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+</nav>  
+<hr>
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-12 col-lg-9 col-xl-7">
+        <div class="card bg-secondary shadow-2-strong card-registration" style="border-radius: 15px;">
+          <div class="card-body p-4 p-md-5">
+            <h3  id="h1" class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
+              <div class="row">
+                <div class="col-md-6 mb-4">
+
+                  <div class="form-outline">
+                    <input type="text" id="firstName" class="form-control form-control-lg"  required/>
+                    <label class="form-label" for="firstName">First Name</label>
+                  </div>
+
+                </div>
+                <div class="col-md-6 mb-4">
+
+                  <div class="form-outline">
+                    <input type="text" id="lastName" class="form-control form-control-lg"  required />
+                    <label class="form-label" for="lastName">Last Name</label>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                  <div class="form-outline datepicker w-100">
+                    <input type="textarea" class="form-control form-control-lg" id="address"  required />
+                    <label for="label_addess" class="form-label">Address</label>
+                  </div>
+
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4 pb-2">
+
+                    <div class="form-outline">
+                      <input type="email" id="emailAddress" class="form-control form-control-lg"  required />
+                      <label class="form-label" for="emailAddress">Email</label>
+                    </div>
+
+                  </div>
+                  <div class="col-md-6 mb-4 pb-2">
+
+                    <div class="form-outline">
+                      <input type="number" id="phoneNumber" class="form-control form-control-lg"  required />
+                      <label class="form-label"  for="phoneNumber">Mobile Number</label>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="row">
+                  <input type="password" id="pass" class="form-control form-control-lg"  required />
+                  <label class="form-label" for="form3Example4cg">Password</label>
+                </div>
+
+                <div class="row">
+                  <input type="password" id="c_pass" class="form-control form-control-lg"  required />
+                  <label class="form-label" for="form3Example4cdg">Confirm your password</label>
+                </div>
+
+                <div class="mt-4 pt-2">
+                  <button class="btn btn-primary btn-lg" id="submit_reg" type="submit" value="Submit"><a href="https://www.linkedin.com/company/netv/" class="text-secondary" style="text-decoration: none;">Sign up</a></button>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<footer class="text-white pt-5 pb-4" id="info">
+  <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h4 class=" mb-4 font-weight-bold text-white">NETechvision</h4>
+        <p class="text-light">Marketing Services</p>
+        <p class="text-light">Pune, Maharashtra</p>
+          <p class="text-light">Phone - 860092083</p>
+      </div>
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <p>
+          <a href="https://www.gmail.com" class="text-secondary" style="text-decoration: none;"><img src="gmail_logo.png" alt=""></a>
+          <p class="text-light">Gmail</p>
+        </p>
+      </div>
+     
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <p>
+          <a href="https://www.linkedin.com/company/netv/" class="text-secondary" style="text-decoration: none;"><img src="twitter_logo.png" alt=""></a>
+          <p class="text-light">Twitter</p>
+        </p>
+        
+      </div>
+      
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3"> 
+        <p>
+          <a href="https://www.facebook.com/NETechvision" class="text-secondary" style="text-decoration: none;"><img src="facebook_logo.png" alt=""></a>
+          <p class="text-light">Facebook</p>
+        </p>
+      </div>
+    </div>
+
+    <div class="ab-4">
+      <div class="copyright row align-items-center">
+        <hr>
+        <div class="col">
+          <p>Copyright @2022 All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
